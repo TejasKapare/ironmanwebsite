@@ -1,0 +1,136 @@
+body{
+  margin:0;
+  text-align:center;
+  font-family: 'Vollkorn', serif;
+  font-size: 20px;
+}
+h1{
+color: #576F72;
+font-size: 5.625rem;/*16px=100%=1em=1rem for static use px and rem for dynamic use em %*/
+/*line-height: 2;*/
+margin:50px auto 0 auto ;
+font-family: 'Marck Script', cursive;
+}
+h2{
+  color: #576F72;
+  font-size: 2.5rem;
+  font-family: 'Barlow', sans-serif;
+  font-weight: normal;
+}
+h3{
+  color: #7D9D9C;
+  font-family: 'Barlow', sans-serif;
+}
+hr{
+  border: dotted #E4DCCF 6px;
+border-bottom: none;
+  width: 10%;
+}
+#intro{
+  margin:20px;
+  padding:10px;
+
+}
+a{
+  color:#E4DCCF;
+  margin:30px;
+}
+a:hover{
+  color: #576F72;
+}
+#pp{
+   height:200px;
+   width:200px;
+}
+.top-container{
+  background-color: #F0EBE3;
+  height:700px;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+margin: 100px auto;
+}
+.bottom-container{
+background-color: #7D9D9C;
+}
+.iron{
+  text-decoration: underline;
+}
+.right{
+  position: absolute;
+  right:300px;
+  top: 50px;
+}
+.left{
+  position: absolute;
+  left:300px;
+  top:50px;
+}
+.left-bottom{
+  position: absolute;
+  left:300px;
+  bottom:100px;
+}
+.right-bottom{
+  position: absolute;
+  right:300px;
+  bottom:100px;
+}
+.skill-row{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.skill1{
+  margin-bottom: 50px;
+}
+.skill2{
+  margin-bottom: 50px;
+}
+.robots{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  line-height: 2;
+}
+.technology{
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+#getintouch{
+  width:40%;
+  padding-bottom: 50px;
+  margin:auto;
+}
+.button {
+background: #576F72;
+background-image: -webkit-linear-gradient(top, #576F72, #576F71);
+background-image: -moz-linear-gradient(top, #576F72, #576F71);
+background-image: -ms-linear-gradient(top, #576F72, #576F71);
+background-image: -o-linear-gradient(top, #576F72, #576F71);
+background-image: linear-gradient(to bottom, #576F72, #576F71);
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 28px;
+font-family: Georgia;
+color: #E4DCCF;
+font-size: 20px;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+}
+
+.button:hover {
+background: #3cb0fd;
+background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+text-decoration: none;
+}
+.copyrt{
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
